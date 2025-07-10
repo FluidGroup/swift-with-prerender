@@ -57,7 +57,7 @@ public final class CATransactionQueue {
     
   }
   
-  public func enqueue(work: @escaping @MainActor () -> Void) {
+  public func enqueue(work: @escaping @Sendable @MainActor () -> Void) {
     
     queue.append(work)
     
