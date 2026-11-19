@@ -1,8 +1,12 @@
+// Adapted from Texture's ASRunLoopQueue.mm.
+// https://github.com/TextureGroup/Texture/blob/master/Source/ASRunLoopQueue.mm
+// Copyright (c) Facebook, Inc. and its affiliates. All rights reserved.
+// Changes after 4/13/2017 are: Copyright (c) Pinterest, Inc. All rights reserved.
+// SPDX-License-Identifier: Apache-2.0
+
 import Foundation
 import CoreFoundation
 
-// from Texture(AsyncDisplayKit)
-// https://github.com/TextureGroup/Texture/blob/master/Source/ASRunLoopQueue.mm
 @MainActor
 public final class CATransactionQueue {
   
